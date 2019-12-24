@@ -18,7 +18,7 @@ namespace Begim.Function {
             ILogger log) {
 
             log.LogInformation ("C# HTTP trigger function processed a request.");
-            var blobCount = -1;
+            var blobCount = 0;
 
             string accountName = req.Query["accountName"];
             if (string.IsNullOrEmpty (accountName)) {

@@ -6,4 +6,6 @@ GET http://localhost:7071/api/HttpTriggerCSharp?containerName=demo&accountName=d
 ### deployed
 ### replace with correct storage account container name & acc name
 
-GET https://begim1975-demostorsdkfunc.azurewebsites.net/api/HttpTriggerCSharp?containerName=demo&accName=begimreadfromdemo
+GET https://begim1975-demostorsdkfunc.azurewebsites.net/api/HttpTriggerCSharp?containerName=demo&accountName=demofuncstorebegim
+
+
